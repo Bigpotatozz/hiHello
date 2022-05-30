@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1905px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body .wraper header nav {
+  background: #1841AB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .wraper header nav .logo .iconMenu {
+  display: none;
+}
+
+body .wraper header nav .menu {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+body .wraper header nav .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wraper header nav .menu ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+body .wraper header nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+body .wraper section {
+  margin-bottom: 100px;
+}
+
+body .wraper section h1 {
+  color: #1841AB;
+  font-size: 40px;
+  margin: 40px;
+}
+
+body .wraper section .fila .contenedorProducto {
+  border: solid 1px #1841AB;
+  border-radius: 19px;
+  max-width: 320px;
+  min-height: 500px;
+  margin-left: 55px;
+  padding-bottom: 15px;
+}
+
+body .wraper section .fila .contenedorProducto .imgArt {
+  text-align: center;
+}
+
+body .wraper section .fila .contenedorProducto .imgArt img {
+  width: 260px;
+  height: 203px;
+}
+
+body .wraper section .fila .contenedorProducto .texto h3 {
+  color: #1841AB;
+  font-size: 24px;
+}
+
+body .wraper section .fila .contenedorProducto .texto .precio {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body .wraper section .fila .contenedorProducto .texto p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body .wraper section .fila .contenedorProducto .vendedor {
+  border: solid 1px #1841AB;
+  text-align: center;
+}
+
+body .wraper section .fila .contenedorProducto .vendedor p {
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+body .wraper section .fila .contenedorProducto .vendedor p img {
+  margin-left: 10px;
+  height: 20px;
+}
+
+body .wraper section .fila .contenedorProducto .comprar {
+  background: #1841AB;
+  border: solid 1px #1841AB;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+body .wraper section .fila .contenedorProducto .comprar a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+  * {
+    max-width: 1366px;
+  }
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  body .wraper header nav {
+    background: #1841AB;
+    display: block;
+  }
+  body .wraper header nav .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .wraper header nav .logo .iconMenu {
+    display: block;
+  }
+  body .wraper header nav .logo .iconMenu i {
+    font-size: 50px;
+    color: white;
+    margin-right: 40px;
+  }
+  body .wraper header nav .menu {
+    margin-top: 0px;
+    margin-right: 40px;
+  }
+  body .wraper header nav .menu ul {
+    display: block;
+    display: none;
+  }
+  body .wraper header nav .menu ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  body .wraper header nav .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+  body .wraper section {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  body .wraper section h1 {
+    color: #1841AB;
+    font-size: 40px;
+    margin: 40px;
+  }
+  body .wraper section .fila .contenedorProducto {
+    border: solid 1px #1841AB;
+    border-radius: 19px;
+    max-width: 320px;
+    min-height: 500px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+  }
+  body .wraper section .fila .contenedorProducto .imgArt {
+    text-align: center;
+  }
+  body .wraper section .fila .contenedorProducto .imgArt img {
+    width: 260px;
+    height: 203px;
+  }
+  body .wraper section .fila .contenedorProducto .texto h3 {
+    color: #1841AB;
+    font-size: 24px;
+  }
+  body .wraper section .fila .contenedorProducto .texto .precio {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  body .wraper section .fila .contenedorProducto .texto p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  body .wraper section .fila .contenedorProducto .vendedor {
+    border: solid 1px #1841AB;
+    text-align: center;
+  }
+  body .wraper section .fila .contenedorProducto .vendedor p {
+    margin-top: 13px;
+    font-weight: bold;
+  }
+  body .wraper section .fila .contenedorProducto .vendedor p img {
+    margin-left: 10px;
+    height: 20px;
+  }
+  body .wraper section .fila .contenedorProducto .comprar {
+    background: #1841AB;
+    border: solid 1px #1841AB;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  body .wraper section .fila .contenedorProducto .comprar a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=tienda.css.map */
